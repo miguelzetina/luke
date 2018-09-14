@@ -1,3 +1,4 @@
 .vagrant/
+.pytest_cache/
 *.pyc
 .tox

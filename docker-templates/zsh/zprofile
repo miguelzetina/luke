@@ -1,0 +1,5 @@
+# Go to src directory actumatically
+cd /home/docker/src
+
+# Automatically load the proper Django settings
+export DJANGO_SETTINGS_MODULE=${PROJECT_NAME}.settings.local
