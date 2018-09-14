@@ -6,12 +6,16 @@ psycopg2>=2.6,<2.7
 django-cors-headers>=1.1,<1.2
 django-extensions>=1.6,<1.7
 django-filter>=0.11,<0.12
-django-rest-swagger>=0.3,<0.4
+djangorestframework==3.7.4
+djangorestframework-jsonapi==2.2.0
 djangorestframework-jwt>=1.7,<1.8
-djangorestframework>=3.3,<3.4
 drf-nested-routers>=0.10,<0.11
-djangorestframework-camel-case
+drf-yasg==1.6.1
+swagger_spec_validator==2.1.0
 
 # Packages
 ipython
 Werkzeug
+
+# Unversioned packages
+djangorestframework-camel-case
